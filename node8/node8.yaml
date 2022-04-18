@@ -1,0 +1,15 @@
+# A unique identifier for the head node and workers of this cluster.
+cluster_name: node5
+
+max_workers: 7
+min_workers: 7
+initial_workers: 7
+autoscaling_mode: default
+target_utilization_fraction: 0.8
+
+# Cloud-provider specific configuration.
+provider:
+    type: gcp
+    region: us-central1
+    availability_zone: us-central1-a
+    project_id: thinking-anthem-347500

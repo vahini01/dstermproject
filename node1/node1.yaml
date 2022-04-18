@@ -1,0 +1,11 @@
+# A unique identifier for the head node and workers of this cluster.
+cluster_name: node5
+
+max_workers: 0
+
+# Cloud-provider specific configuration.
+provider:
+    type: gcp
+    region: us-central1
+    availability_zone: us-central1-a
+    project_id: thinking-anthem-347500
